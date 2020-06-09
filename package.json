@@ -1,13 +1,13 @@
 {
-  "name": "docsify",
+  "name": "proton-docs",
   "version": "4.11.3",
-  "description": "A magical documentation generator.",
+  "description": "Proton chain documentation",
   "author": {
-    "name": "qingwei-li",
-    "email": "cinwell.li@gmail.com",
-    "url": "https://github.com/QingWei-Li"
+    "name": "Proton",
+    "email": "hello@protonchain.com",
+    "url": "https://github.com/ProtonProtocol"
   },
-  "homepage": "https://docsify.js.org",
+  "homepage": "https://docs.protonchain.com",
   "license": "MIT",
   "repository": {
     "type": "git",
