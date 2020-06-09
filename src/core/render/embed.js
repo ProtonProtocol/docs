@@ -1,6 +1,6 @@
+import stripIndent from 'strip-indent';
 import { get } from '../fetch/ajax';
 import { merge } from '../util/core';
-import stripIndent from 'strip-indent';
 
 const cached = {};
 
@@ -35,6 +35,13 @@ function walkFetchEmbed({ embedTokens, compile, fetch }, cb) {
               }
               return x;
             });
+
+            // This may contain YAML front matter and will need to be stripped.
+            const frontMatterInstalled =
+              ($docsify.frontMatter || {}).installed || false;
+            if (frontMatterInstalled === true) {
+              text = $docsify.frontMatter.parseMarkdown(text);
+            }
 
             embedToken = compile.lexer(text);
           } else if (token.embed.type === 'code') {
