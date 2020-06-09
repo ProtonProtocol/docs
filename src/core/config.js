@@ -11,7 +11,7 @@ export default function() {
       subMaxLevel: 0,
       loadSidebar: null,
       loadNavbar: null,
-      homepage: 'README.md',
+      homepage: 'introduction.md',
       coverpage: '',
       basePath: '',
       auto2top: false,

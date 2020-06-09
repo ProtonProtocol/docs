@@ -66,14 +66,10 @@ export function main(config) {
  * @returns {String} Cover page
  */
 export function cover() {
-  const SL = ', 100%, 85%';
-  const bgc =
-    'linear-gradient(to left bottom, ' +
-    `hsl(${Math.floor(Math.random() * 255) + SL}) 0%,` +
-    `hsl(${Math.floor(Math.random() * 255) + SL}) 100%)`;
+  const bgc = 'rgb(2, 12, 42)';
 
   return (
-    `<section class="cover show" style="background: ${bgc}">` +
+    `<section class="cover show" style="background: ${bgc}; color: white;">` +
     '<div class="cover-main"><!--cover--></div>' +
     '<div class="mask"></div>' +
     '</section>'

@@ -1,12 +1,5 @@
-![logo](_media/icon.svg)
+![logo](_media/logo.png)
 
-# docsify <small>4.11.3</small>
+# Proton <small>0.0.1</small>
 
-> A magical documentation site generator.
-
-- Simple and lightweight (~21kB gzipped)
-- No statically built html files
-- Multiple themes
-
-[GitHub](https://github.com/docsifyjs/docsify/)
-[Getting Started](#docsify)
+> The blockchain that interacts with your bank.

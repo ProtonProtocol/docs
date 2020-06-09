@@ -1,28 +1,15 @@
-- Getting started
+- Introduction
 
-  - [Quick start](quickstart.md)
-  - [Writing more pages](more-pages.md)
-  - [Custom navbar](custom-navbar.md)
-  - [Cover page](cover.md)
+  - [What is Proton?](introduction.md)
 
-- Customization
+- Installation
+  - [Installation options](installation.md)
+  - [Install pre-built binaries](prebuilt-binaries.md)
+  - [Build from source](build-from-source.md)
+    - [Download source files](download-source-files.md)
+    - [Build binaries](build-binaries.md)
+    - [Install binaries](install-binaries.md)
 
-  - [Configuration](configuration.md)
-  - [Themes](themes.md)
-  - [List of Plugins](plugins.md)
-  - [Write a Plugin](write-a-plugin.md)
-  - [Markdown configuration](markdown.md)
-  - [Language highlighting](language-highlight.md)
-
-- Guide
-
-  - [Deploy](deploy.md)
-  - [Helpers](helpers.md)
-  - [Vue compatibility](vue.md)
-  - [CDN](cdn.md)
-  - [Offline Mode(PWA)](pwa.md)
-  - [Server-Side Rendering(SSR)](ssr.md)
-  - [Embed Files](embed-files.md)
-
-- [Awesome docsify](awesome.md)
-- [Changelog](changelog.md)
+- Using Proton
+  - [Creating an account](creating-an-account.md)
+  - [Staking your tokens](staking.md)
